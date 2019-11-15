@@ -14,3 +14,5 @@
 
 ### 分文件解说
 1.裁判文件API
+* 此步借助openlaw API的平台来得到文书：http://develop.openlaw.cn/index.jsp
+* 个人账号文书的每日上限是1000份文书，因此请控制下列代码运行时的条件。
