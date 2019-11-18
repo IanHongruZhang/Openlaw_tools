@@ -46,6 +46,7 @@
 > pip install -r requirements
 
 * 非常非常感谢大佬hankcs对HanLp的python化工作，让本工具的最后几个部分能够得以实现。
+* 基于Apache License Version 2.0的守则，在此显式注明我对HanLp的引用，以及我对大佬的崇敬之情。
 > https://github.com/hankcs/HanLP
 
 ### 使用方法
