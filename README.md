@@ -102,9 +102,9 @@
 * 使用HanLP.newSegment().enableNameRecognize()以及enablePlaceRecognize()、enableOrganizationRecognize()。
 
 10.文本聚类（对应十二、十三、十四步）
-* 十三步为LDA聚类算法
-* 十四步为Kmeans算法
-* 十五步为HanLp自带的Repeated-Bisection（重复二分法）
+* 十二步为LDA聚类算法
+* 十三步为Kmeans算法
+* 十四步为HanLp自带的Repeated-Bisection（重复二分法）
 > 关于该算法介绍：https://github.com/hankcs/HanLP/wiki/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB
 
 ### 后续工作
