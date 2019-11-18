@@ -47,7 +47,9 @@ git clone https://github.com/IanHongruZhang/Openlaw_tools
 * Anaconda 2019.10版本（至少是Python3的发行版)。
 * Python3(所有ipynb文件是在Python3.7环境下写成)。
 * 所需要的包都在requirements.txt里，若要单机使用：
-> pip install -r requirements
+```
+pip install -r requirements
+```
 
 * 非常非常感谢大佬hankcs对HanLp的python化工作，让本工具的最后几个部分能够得以实现。
 * 基于Apache License Version 2.0的守则，在此显式注明我对HanLp的引用，以及我对大佬的崇敬仰慕之情。
