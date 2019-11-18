@@ -13,9 +13,7 @@
 
 > 《图解｜中国式遗嘱：忌立遗嘱心态改观，遗嘱纠纷几时休》https://www.thepaper.cn/newsDetail_forward_2060254
 
-> 《巨额来电》套路深？图解462份判决书中的电信诈骗 
-
-> https://www.thepaper.cn/newsDetail_forward_1902196
+> 《巨额来电套路深？图解462份判决书中的电信诈骗》https://www.thepaper.cn/newsDetail_forward_1902196  
 
 
 目前（2019-11-18）主要实现的功能有
