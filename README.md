@@ -76,9 +76,14 @@
 * 余弦相似筛选器是指，筛去与目标案件在词袋模型余弦相似度（欧氏距离）上太远的案件。
 >上述方法可连续使用，最终旨在得到一个清理干净的文书表格。
 
+演示：
+![M6X7i6.jpg](https://s2.ax1x.com/2019/11/18/M6X7i6.jpg)
+
 3.法条信息抽取（对应第四步）
 * 抽取所有案件判决中，判决最终所依据的法条细则，包括各法条细则（如《中华人民共和国刑法》第231条）。
 * 抽取所有的法条（如《中华人民共和国刑法》、《中华人民共和国物权法》等）。
+演示：
+![M6XoIx.jpg](https://s2.ax1x.com/2019/11/18/M6XoIx.jpg)
 
 4.罪名提取（只适用于刑事案件，对应第五步）
 * 抽取罪名，以及罪名的数量。
@@ -87,8 +92,13 @@
 * 使用正则提取方法，高亮出所有重要的表述。
 * 支持将所有的重要表述，导出成.html文件，如下图所示。
 
+演示：
+https://s2.ax1x.com/2019/11/18/M6XOQe.jpg
+
 6.切取句子得到词频（对应第七步）
 * 使用HanLp的HanLP.segment()方法，得到一列中所有的词频。
+演示：
+![M6XHJK.jpg](https://s2.ax1x.com/2019/11/18/M6XHJK.jpg)
 
 7.使用HanLp得到摘要（对应第八步)
 * 使用HanLp的HanLP.extractSummary()方法，得到一段话中指定数量的摘要。
@@ -101,6 +111,9 @@
 * 切分出人名、地名、组织名。
 * 使用HanLP.newSegment().enableNameRecognize()以及enablePlaceRecognize()、enableOrganizationRecognize()。
 
+演示：
+https://s2.ax1x.com/2019/11/18/M6X5ZR.jpg
+
 10.文本聚类（对应十二、十三、十四步）
 * 十二步为LDA聚类算法
 * 十三步为Kmeans算法
@@ -111,11 +124,6 @@
 * 做出web网页端的工具集成。
 * 使用深度学习框架，进行监督学习的测试。
 
-![M6XHJK.jpg](https://s2.ax1x.com/2019/11/18/M6XHJK.jpg)
-![M6XoIx.jpg](https://s2.ax1x.com/2019/11/18/M6XoIx.jpg)
-![M6XId1.jpg](https://s2.ax1x.com/2019/11/18/M6XId1.jpg)
-![M6X7i6.jpg](https://s2.ax1x.com/2019/11/18/M6X7i6.jpg)
-![M6X5ZR.jpg](https://s2.ax1x.com/2019/11/18/M6X5ZR.jpg)
-![M6XOQe.jpg](https://s2.ax1x.com/2019/11/18/M6XOQe.jpg)
+
 ![M6XqzD.jpg](https://s2.ax1x.com/2019/11/18/M6XqzD.jpg)
 ![M6XbRO.jpg](https://s2.ax1x.com/2019/11/18/M6XbRO.jpg)
