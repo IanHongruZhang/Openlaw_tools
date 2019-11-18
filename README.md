@@ -1,9 +1,11 @@
 # Openlaw Tools
-一个分析openlaw裁判文书的工具
+一个使用各类文本分析方法，来分析openlaw裁判文书的工具。
 
 ### 使用环境
-* Anaconda 3.7版本（至少是2019年的发行版）。
-* 所需要的包都在requirements.txt里。
+* Anaconda 2019.10版本（至少是python3的发行版。）
+* python3(所有ipynb文件在python3.7环境下写成。)
+* 所需要的包都在requirements.txt里，若要单机使用：
+> pip install -r requirements
 
 ### 使用方法
 * 打开jupyter notebook，一路执行下去就好，会有交互的提示。
