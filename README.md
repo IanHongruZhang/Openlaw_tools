@@ -40,8 +40,8 @@
 * Repeated-Bisection聚类（基于HanLp)
 
 ### 使用环境
-* Anaconda 2019.10版本（至少是python3的发行版)。
-* python3(所有ipynb文件是在python3.7环境下写成)。
+* Anaconda 2019.10版本（至少是Python3的发行版)。
+* Python3(所有ipynb文件是在Python3.7环境下写成)。
 * 所需要的包都在requirements.txt里，若要单机使用：
 > pip install -r requirements
 
