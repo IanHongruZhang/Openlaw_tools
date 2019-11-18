@@ -96,7 +96,7 @@
 * 支持将所有的重要表述，导出成.html文件，如下图所示。
 
 演示：
-https://s2.ax1x.com/2019/11/18/M6XOQe.jpg
+![M6XOQe.jpg](https://s2.ax1x.com/2019/11/18/M6XOQe.jpg)
 
 6.切取句子得到词频（对应第七步）
 * 使用HanLp的HanLP.segment()方法，得到一列中所有的词频。
@@ -118,7 +118,7 @@ https://s2.ax1x.com/2019/11/18/M6XOQe.jpg
 * 使用HanLP.newSegment().enableNameRecognize()以及enablePlaceRecognize()、enableOrganizationRecognize()。
 
 演示：
-https://s2.ax1x.com/2019/11/18/M6X5ZR.jpg
+![M6X5ZR.jpg](https://s2.ax1x.com/2019/11/18/M6X5ZR.jpg)
 
 10.文本聚类（对应十二、十三、十四步）
 * 十二步为LDA聚类算法
