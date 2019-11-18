@@ -48,7 +48,7 @@ git clone https://github.com/IanHongruZhang/Openlaw_tools
 * Python3(所有ipynb文件是在Python3.7环境下写成)。
 * 所需要的包都在requirements.txt里，若要单机使用：
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 * 非常非常感谢大佬hankcs对HanLp的python化工作，让本工具的最后几个部分能够得以实现。
