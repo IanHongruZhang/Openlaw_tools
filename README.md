@@ -9,21 +9,21 @@
 > http://projects.thepaper.cn/thepaper-cases/839studio/?cat=4
 
 * 可能曾经使用过该工具产生的稿件：
-> 《为何有了“新解释”，纠错夫妻债务纠纷的历史遗案还那么难？》
+* 《为何有了“新解释”，纠错夫妻债务纠纷的历史遗案还那么难？》
 
-https://www.thepaper.cn/newsDetail_forward_3214161
+> https://www.thepaper.cn/newsDetail_forward_3214161
 
-> 《这是坑｜判决书中的微商骗局套路，微商可能比你更容易上当》
+* 《这是坑｜判决书中的微商骗局套路，微商可能比你更容易上当》
 
-https://www.thepaper.cn/newsDetail_forward_3139674
+> https://www.thepaper.cn/newsDetail_forward_3139674
 
-> 《图解｜中国式遗嘱：忌立遗嘱心态改观，遗嘱纠纷几时休》
+* 《图解｜中国式遗嘱：忌立遗嘱心态改观，遗嘱纠纷几时休》
 
-https://www.thepaper.cn/newsDetail_forward_2060254
+> https://www.thepaper.cn/newsDetail_forward_2060254
 
-> 《巨额来电套路深？图解462份判决书中的电信诈骗》
+* 《巨额来电套路深？图解462份判决书中的电信诈骗》
 
-https://www.thepaper.cn/newsDetail_forward_1902196  
+> https://www.thepaper.cn/newsDetail_forward_1902196  
 
 目前（2019-11-18）主要实现的功能有
 * 筛去不符文本。
