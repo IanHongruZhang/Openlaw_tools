@@ -2,7 +2,8 @@
 
 ### 开发初衷
 一个使用各类文本分析方法，来分析openlaw裁判文书的工具。
-> https://github.com/IanHongruZhang/Openlaw_tools
+获取方法
+> git clone https://github.com/IanHongruZhang/Openlaw_tools
 
 * 由于开发者本人为一名数据新闻编辑，此工具是为制作数据新闻的稿件而制作。
 详情请查阅澎湃新闻·美数课栏目的所有稿件，以及美数课栏目的网站。
