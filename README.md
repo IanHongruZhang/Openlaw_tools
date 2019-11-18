@@ -110,3 +110,12 @@
 ### 后续工作
 * 做出web网页端的工具集成。
 * 使用深度学习框架，进行监督学习的测试。
+
+![M6XHJK.jpg](https://s2.ax1x.com/2019/11/18/M6XHJK.jpg)
+![M6XoIx.jpg](https://s2.ax1x.com/2019/11/18/M6XoIx.jpg)
+![M6XId1.jpg](https://s2.ax1x.com/2019/11/18/M6XId1.jpg)
+![M6X7i6.jpg](https://s2.ax1x.com/2019/11/18/M6X7i6.jpg)
+![M6X5ZR.jpg](https://s2.ax1x.com/2019/11/18/M6X5ZR.jpg)
+![M6XOQe.jpg](https://s2.ax1x.com/2019/11/18/M6XOQe.jpg)
+![M6XqzD.jpg](https://s2.ax1x.com/2019/11/18/M6XqzD.jpg)
+![M6XbRO.jpg](https://s2.ax1x.com/2019/11/18/M6XbRO.jpg)
