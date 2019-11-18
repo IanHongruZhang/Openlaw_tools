@@ -26,27 +26,30 @@
 > https://www.thepaper.cn/newsDetail_forward_1902196  
 
 目前（2019-11-18）主要实现的功能有
-* 筛去不符文本。
-* 法条信息查找。
-* 案件信息结构化重构。
+* 筛去不符文本
+* 法条信息查找
+* 案件信息结构化重构
 * 使用正则表达式，对重要信息发掘并转换成html格式阅读。
-* 词频分词。
+* 词频分词
 * 自动摘要提取。（基于HanLp)
-* 词语共现。（基于HanLp)
-* 人名查找。（基于HanLp)
-* 地名查找。（基于HanLp)
+* 词语共现（基于HanLp)
+* 人名查找（基于HanLp)
+* 地名查找（基于HanLp)
 * LDA文书信息聚类
 * Kmeans文书信息聚类
 * Repeated-Bisection聚类（基于HanLp)
 
 ### 使用环境
-* Anaconda 2019.10版本（至少是python3的发行版。）
-* python3(所有ipynb文件在python3.7环境下写成。)
+* Anaconda 2019.10版本（至少是python3的发行版）。
+* python3(所有ipynb文件是在python3.7环境下写成)。
 * 所需要的包都在requirements.txt里，若要单机使用：
 > pip install -r requirements
 
+* 非常非常感谢大佬hankcs对HanLp的python化工作，让本工具的最后几个部分能够得以实现。
+> https://github.com/hankcs/HanLP
+
 ### 使用方法
-* 打开jupyter notebook，一路执行下去就好，会有交互的提示。
+* 打开jupyter notebook，一路执行下去就可以，会有交互的提示。
 
 ### 所要准备好的文件
 * 从Openlaw（或者Openlaw API）中所下载下来的excel文件。
@@ -65,6 +68,10 @@
 * 正则表达式筛选器是指，在openlaw文书表格中，筛去不含关键字的案件。（如以“正当防卫“关键字搜索来的案件表格，有些案件通篇没有正当防卫这4字，则筛去）
 * 余弦相似筛选器是指，筛去与目标案件在词袋模型余弦相似度（欧氏距离）上太远的案件。
 上述方法可连续使用，最终会得到一个清理干净的文书表格。
+
+3.法条信息抽取（对应第四步）
+* 抽取所有案件判决中，判决最终所依据的法条。
+* 抽取
 
 ### 后续工作
 * 做出web网页端的工具集成
