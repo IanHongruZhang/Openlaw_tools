@@ -1,7 +1,7 @@
-# Openlaw Text-Analysis Tools
-
 ![M6Okh8.png](https://s2.ax1x.com/2019/11/18/M6Okh8.png)
 ------------------------------------------------------------------------------
+
+# Openlaw Text-Analysis Tools
 ### 开发初衷
 打造一个使用各类文本分析方法，来分析openlaw法律裁判文书的工具。
 > https://github.com/IanHongruZhang/Openlaw_tools
