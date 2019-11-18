@@ -8,7 +8,7 @@
 详情请查阅澎湃新闻·美数课栏目的所有稿件，以及美数课栏目的网站。
 > http://projects.thepaper.cn/thepaper-cases/839studio/?cat=4
 
-* 可能曾经使用过该工具产生的稿件：
+### 可能曾经使用过该工具产生的稿件：
 * 《为何有了“新解释”，纠错夫妻债务纠纷的历史遗案还那么难？》
 
 > https://www.thepaper.cn/newsDetail_forward_3214161
