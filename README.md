@@ -1,5 +1,7 @@
 # Openlaw Text-Analysis Tools
-* 一个使用各类文本分析方法，来分析openlaw裁判文书的工具。
+
+### 开发初衷
+一个使用各类文本分析方法，来分析openlaw裁判文书的工具。
 > https://github.com/IanHongruZhang/Openlaw_tools
 
 * 由于开发者本人为一名数据新闻编辑，此工具是为制作数据新闻的稿件而制作。
