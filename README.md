@@ -2,11 +2,7 @@
 
 ### 开发初衷
 一个使用各类文本分析方法，来分析openlaw裁判文书的工具。
-获取方法
-
-```
-git clone https://github.com/IanHongruZhang/Openlaw_tools
-```
+> https://github.com/IanHongruZhang/Openlaw_tools
 
 * 由于开发者本人为一名数据新闻编辑，此工具是为制作数据新闻的稿件而制作。
 详情请查阅澎湃新闻·美数课栏目的所有稿件，以及美数课栏目的网站。
@@ -47,9 +43,7 @@ git clone https://github.com/IanHongruZhang/Openlaw_tools
 * Anaconda 2019.10版本（至少是Python3的发行版)。
 * Python3(所有ipynb文件是在Python3.7环境下写成)。
 * 所需要的包都在requirements.txt里，若要单机使用：
-```
-pip install -r requirements.txt
-```
+> pip install -r requirements
 
 * 非常非常感谢大佬hankcs对HanLp的python化工作，让本工具的最后几个部分能够得以实现。
 * 基于Apache License Version 2.0的守则，在此显式注明我对HanLp的引用，以及我对大佬的崇敬仰慕之情。
@@ -93,8 +87,26 @@ pip install -r requirements.txt
 * 使用正则提取方法，高亮出所有重要的表述。
 * 支持将所有的重要表述，导出成.html文件，如下图所示。
 
-6.切取词频
+6.切取句子得到词频（对应第七步）
+* 使用HanLp的HanLP.segment()方法，得到一列中所有的词频。
 
+7.使用HanLp得到摘要（对应第八步)
+* 使用HanLp的HanLP.extractSummary()方法，得到一段话中指定数量的摘要。
+
+8.词语共现（对应第九步）
+* 使用前面得到的切词表、以及原案件表中的文字，得到高频词在一个案件中共同出现的次数。
+* 用以进一步架构语义网络。
+
+9.人名&地名&组织名查找（对应第十、十一步）
+* 切分出人名、地名、组织名。
+* 使用HanLP.newSegment().enableNameRecognize()以及enablePlaceRecognize()、enableOrganizationRecognize()。
+
+10.文本聚类（对应十二、十三、十四步）
+* 十三步为LDA聚类算法
+* 十四步为Kmeans算法
+* 十五步为HanLp自带的Repeated-Bisection（重复二分法）
+> 关于该算法介绍：https://github.com/hankcs/HanLP/wiki/%E6%96%87%E6%9C%AC%E8%81%9A%E7%B1%BB
 
 ### 后续工作
-* 做出web网页端的工具集成
+* 做出web网页端的工具集成。
+* 使用深度学习框架，进行监督学习的测试。
